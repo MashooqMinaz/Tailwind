@@ -1,0 +1,56 @@
+<!-- SECTION-1 -->
+<div class="flex justify-between">
+  <div>
+    <h1 class="font-bold text-7xl ml-48 mt-40">Bulding Digital <br> Products, Brands <br> & Experience </h1>
+    <p class="ml-48 mt-8 font-light">Digital Agency Is Your Online Team Management Tool That <br> Easy And Prompt</p>
+    <button class="ml-48 mt-12 bg-[#8EADD5] text-white text-sm px-5 py-2 rounded-md ">CONTACT US</button>
+  </div>
+  <img class="mr-48 mt-14" src="../../../assets/images/table.png" alt="">
+</div>
+<p class="mx-[44%] mt-20 text-slate-600 font-extralight">Trusted By 4,000+ Companies</p>
+
+<!-- ADS-BAR -->
+<app-adsbar></app-adsbar>
+
+<!-- SECTION-2 -->
+<div class="flex justify-between">
+  <img class="ml-48 mt-24" src="../../../assets/images/pencil.png" alt="">
+  <div>
+    <h1 class="font-bold text-7xl mr-48 mt-48">Branding & Design <br> System </h1>
+    <p class="mr-48 mt-10 font-light">Commonly Used In The Graphic, Print & Publishing <br> Industries For Previewing Visual Layout And <br> Mockups</p>
+    <p class="text-5xl ml-[-8px] mt-8"> → </p>
+  </div>
+</div>
+
+<!-- SECTION-3-->
+<div class="flex justify-between">
+  <div>
+    <h1 class="font-bold text-7xl ml-48 mt-48">Custome & Plugin <br> Development </h1>
+    <p class="ml-48 mt-10 font-light">Commonly Used In The Graphic, Print & Publishing <br> Industries For Previewing Visual Layout And <br> Mockups</p>
+    <p class="text-5xl ml-[184px] mt-8"> → </p>
+  </div>
+  <img class="mr-48 mt-24" src="../../../assets/images/lecture.png" alt="">
+</div>
+
+
+<!-- TESTIMONIALS-->
+<div class="mt-48 flex items-center flex-col w-screen">
+  <p class="mb-[-32px]">TESTIMONIALS</p>
+  <h1 class="font-bold text-7xl mt-12">Read What Other</h1>
+  <h1 class="font-bold text-7xl">Have To Say </h1>
+</div>
+
+
+<!-- CARDS-->
+<div class="w-screen flex justify-center gap-32 mt-14">
+  <app-cards
+  *ngFor="let content of contentArray"
+  [imgUrl]="content.imgUrl"
+  [name]="content.name"
+  ></app-cards>
+</div>
+
+<!-- ENQUIRY -->
+<app-enquiry></app-enquiry>
+
+<div class="h-32"></div>
