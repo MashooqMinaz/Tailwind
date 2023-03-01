@@ -8,6 +8,7 @@ import { AdsbarComponent } from './components/adsbar/adsbar.component';
 import { ContentsComponent } from './components/contents/contents.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { EnquiryComponent } from './components/enquiry/enquiry.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EnquiryComponent } from './components/enquiry/enquiry.component';
     AdsbarComponent,
     ContentsComponent,
     CardsComponent,
-    EnquiryComponent
+    EnquiryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

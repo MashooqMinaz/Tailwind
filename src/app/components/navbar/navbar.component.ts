@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-
+  isSelected:boolean = false
+  menu(){
+    this.isSelected = !this.isSelected
+  }
 }
